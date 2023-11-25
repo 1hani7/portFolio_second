@@ -8,7 +8,9 @@
             <div class="bg-primary ms-3" style="width:20px; height:5px"></div>
         </div>
         <h3 class="text-end fw-bolder d-flex justify-content-start column-gap-3">
-            <div class="my-3">배움이 두렵지 않은 개발자</div>
+            <div class="my-3" style="text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);">
+                배움이 두렵지 않은 개발자
+            </div>
             <i class="bi bi-chat-dots"></i>
         </h3>
         <p class="text-white-50">

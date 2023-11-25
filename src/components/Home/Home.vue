@@ -38,20 +38,20 @@ import ScrollArrow from './comp/scrollArrow.vue'
     <div class="bg-dark">
         <div class="vh-100 container-fluid d-flex flex-column flex-md-row column-gap-md-5
         align-items-center justify-content-center bg-white position-relative overflow-hidden"
-            style="border-radius: 0px 0px 100px 100px;">
+            style="border-radius: 0px 0px 0px 100px;">
             <video autoplay loop muted plays-inline
-            style="z-index:0; opacity: 0.05; filter: grayscale(100%);
+            style="z-index:0; opacity: 0.9; filter: grayscale(100%);
             position: absolute;
             top: 50%; left: 50%;
             transform: translate(-50%, -50%);
             min-width: 100%; min-height: 100%;
             width: auto; height: auto;">
-                <source src="../../assets/video/codingBg.mp4" />
+                <source src="../../assets/video/programing.mp4" />
             </video>
             <div class="order-2 order-md-1 d-flex flex-column align-items-center">
-                <Introduce style="z-index:1; mix-blend-mode: difference;" />
+                <Introduce style="z-index:1;" />
                 <DescOne style="z-index:1;" />
-                <DescTwo style="z-index:1;" />
+                <DescTwo style="z-index:1; mix-blend-mode: difference;" />
                 <LinkIcons style="z-index:1;" />
             </div>
             <div class="bgImage heightControl widthControl p-0 position-relative order-1 order-md-2"></div>

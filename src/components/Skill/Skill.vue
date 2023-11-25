@@ -26,7 +26,7 @@ import ETC from './comp/ETC.vue';
 }
 
 .hexagon:hover {
-    transform: translateY(-5%);
+    transform: translateY(-9%);
 }
 
 .hexagon .shape {
@@ -47,21 +47,30 @@ import ETC from './comp/ETC.vue';
     top: 10px;
     width: 65%;
 }
+
+.geoBg {
+    background-image: url(../../assets/images/skillBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    background-attachment: fixed;
+}
 </style>
 
 <template>
-    <div class="">
-        <div class="py-5 container-md d-flex flex-column
-        align-items-center justify-content-center bg-white
-        row-gap-5">
-            <SkillTitle />
-            <Publish />
-            <Framework />
-            <StateMan />
-            <Library />
-            <StyleFramework />
-            <DataWork />
-            <ETC />
-        </div>
+    <div class="pt-5 container-md d-flex flex-column
+    align-items-center justify-content-center bg-white
+    row-gap-5 position-relative"
+    style="padding-bottom:300px;">
+        <SkillTitle />
+        <Publish />
+        <Framework />
+        <StateMan />
+        <Library />
+        <StyleFramework />
+        <DataWork />
+        <ETC />
+        <div class="geoBg position-absolute"></div>
     </div>
 </template>
