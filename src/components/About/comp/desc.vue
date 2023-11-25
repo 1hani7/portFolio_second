@@ -4,10 +4,10 @@
 <template>
     <div class="text-white">
         <div class="d-flex align-items-start">
-            <h5 class=""><i class="bi bi-question-diamond"></i> About me</h5>
+            <h5 class="">About me</h5>
             <div class="bg-primary ms-3" style="width:20px; height:5px"></div>
         </div>
-        <h3 class="text-end fw-bolder d-flex justify-content-end column-gap-3">
+        <h3 class="text-end fw-bolder d-flex justify-content-start column-gap-3">
             <div class="my-3">배움이 두렵지 않은 개발자</div>
             <i class="bi bi-chat-dots"></i>
         </h3>

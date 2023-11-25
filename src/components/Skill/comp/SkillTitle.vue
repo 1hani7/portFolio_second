@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="mt-5 w-100 position-relative
+    <div class="mt-5 mb-5 py-5 w-100 position-relative
     d-flex flex-column align-items-center justify-content-center">
         <h2 class="text-center bg-white position-absolute px-5
         fw-bolder">

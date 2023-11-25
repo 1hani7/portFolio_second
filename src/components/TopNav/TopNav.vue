@@ -6,6 +6,7 @@ import { onMounted, onUnmounted } from 'vue';
 
 const navBarShowHide = (e) => {
     const navigation = document.querySelector('.navigation');
+    if( window.scrollY === 0 )  navigation.classList.remove('navHide');
     if (e.deltaY > 0) { navigation.classList.add('navHide'); }
     else { navigation.classList.remove('navHide'); }
 }

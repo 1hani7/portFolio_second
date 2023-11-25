@@ -15,8 +15,8 @@ import ETC from './comp/ETC.vue';
     width: 170px;
     max-width: 170px;
     max-height: 200px;
-    transition: 0.5s ease;
-    filter: drop-shadow(0px 10px 10px #d9d9d9);
+    transition: 0.75s ease;
+    filter: drop-shadow(0px 10px 10px #ababab);
 }
 
 .hexagon::after {
@@ -26,7 +26,7 @@ import ETC from './comp/ETC.vue';
 }
 
 .hexagon:hover {
-    transform: translateY(-5%)
+    transform: translateY(-5%);
 }
 
 .hexagon .shape {

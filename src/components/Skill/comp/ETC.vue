@@ -14,8 +14,8 @@
 </style>
 
 <template>
-    <div class="text-center w-100">
-        <h3 class="fw-bolder text-secondary mt-5 mb-4">AND...</h3>
+    <div class="text-center w-100 bg-body-tertiary border rounded-5 py-5">
+        <h3 class="fw-bolder text-secondary mb-4">AND...</h3>
         <div class="d-flex flex-column justify-content-center">
             <div class="d-flex flex-column flex-sm-row gap-3 mx-auto">
                 <div class="d-flex column-gap-3">
