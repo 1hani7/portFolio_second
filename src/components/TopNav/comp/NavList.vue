@@ -1,6 +1,10 @@
 <script setup>
 const list = [
-    {name:'HOME'}, {name:'SKILL'}, {name:'PROJECT'}, {name:'TOYS'},
+    {name:'HOME'},
+    {name:'ABOUT'},
+    {name:'SKILL'},
+    {name:'PROJECT'},
+    {name:'TOYS'},
 ]
 
 const showUnderLine = (e) => e.target.nextSibling.classList.toggle('d-none');
@@ -8,7 +12,7 @@ const hideUnderLine = (e) => e.target.nextSibling.classList.toggle('d-none');
 
 </script>
 <style scoped>
-.widthControl { animation:widthControl 0.5s ease; }
+.widthControl { animation:widthControl 0.5s ease forwards; }
 @keyframes widthControl {
     0%{ width:0%; }
     100%{ width:100%; }
@@ -26,7 +30,7 @@ const hideUnderLine = (e) => e.target.nextSibling.classList.toggle('d-none');
                 class="nav-link" href="#">
                     {{ item.name }}
                 </a>
-                <hr class="widthControl d-none m-0 p-0 position-absolute" />
+                <div class="widthControl border-bottom d-none m-0 p-0"></div>
             </li>
         </ul>
     </div>

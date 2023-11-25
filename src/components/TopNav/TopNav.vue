@@ -21,8 +21,9 @@ onUnmounted(() => window.removeEventListener('wheel', navBarShowHide));
 </style>
 
 <template>
-    <nav class="navigation container-fluid navbar navbar-expand-lg position-fixed top-0"
-    style="transition:0.5s ease;">
+    <nav class="navigation container-fluid bg-white
+    navbar navbar-expand-lg position-fixed top-0"
+    style="transition:0.5s ease; z-index: 30">
         <div class="container-fluid px-3 px-md-5">
             <NavLogo />
             <button class="navbar-toggler" style="border:none; box-shadow:none;" type="button" data-bs-toggle="collapse"

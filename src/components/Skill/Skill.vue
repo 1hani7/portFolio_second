@@ -1,0 +1,67 @@
+<script setup>
+import SkillTitle from './comp/SkillTitle.vue';
+import Publish from './comp/Publish.vue';
+import Framework from './comp/Framework.vue';
+import StateMan from './comp/StateMan.vue'
+import StyleFramework from './comp/StyleFramework.vue';
+import DataWork from './comp/DataWork.vue';
+import Library from './comp/Library.vue';
+import ETC from './comp/ETC.vue';
+</script>
+
+<style>
+.hexagon {
+    position: relative;
+    width: 170px;
+    max-width: 170px;
+    max-height: 200px;
+    transition: 0.5s ease;
+    filter: drop-shadow(0px 10px 10px #d9d9d9);
+}
+
+.hexagon::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.hexagon:hover {
+    transform: translateY(-5%)
+}
+
+.hexagon .shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hexagon .shape img {
+    position: relative;
+    top: 10px;
+    width: 65%;
+}
+</style>
+
+<template>
+    <div class="">
+        <div class="py-5 container-md d-flex flex-column
+        align-items-center justify-content-center bg-white
+        row-gap-5">
+            <SkillTitle />
+            <Publish />
+            <Framework />
+            <StateMan />
+            <Library />
+            <StyleFramework />
+            <DataWork />
+            <ETC />
+        </div>
+    </div>
+</template>
