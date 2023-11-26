@@ -40,7 +40,7 @@ import ScrollArrow from './comp/scrollArrow.vue'
         align-items-center justify-content-center bg-white position-relative overflow-hidden"
             style="border-radius: 0px 0px 0px 100px;">
             <video autoplay loop muted plays-inline
-            style="z-index:0; opacity: 0.9; filter: grayscale(100%);
+            style="z-index:0; opacity: 0.7; filter: grayscale(100%);
             position: absolute;
             top: 50%; left: 50%;
             transform: translate(-50%, -50%);

@@ -66,7 +66,7 @@ onUnmounted(() => {
         <Skill id="SKILL" class="geoBg" />
         <Projects id="PROJECTS" />
 
-        <div class="position-fixed text-white text-end" style="z-index: 10; top:50%; right:20px;
+        <div class="d-none d-md-block position-fixed text-white text-end" style="z-index: 10; top:50%; right:20px;
         mix-blend-mode: difference;">
             <div class="nms" style="transition:1s ease;">01.</div>
             <div class="nms" style="transition:1s ease;">02.</div>

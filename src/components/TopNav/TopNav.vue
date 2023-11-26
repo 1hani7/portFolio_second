@@ -11,8 +11,12 @@ const navBarShowHide = (e) => {
     else { navigation.classList.remove('navHide'); }
 }
 
-onMounted(() => window.addEventListener('wheel', navBarShowHide));
-onUnmounted(() => window.removeEventListener('wheel', navBarShowHide));
+onMounted(() => {
+    window.addEventListener('wheel', navBarShowHide);
+});
+onUnmounted(() => {
+    window.removeEventListener('wheel', navBarShowHide);
+});
 </script>
 
 <style>

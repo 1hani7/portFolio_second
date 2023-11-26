@@ -1,0 +1,88 @@
+[
+    {
+        "title": "SSS's LiveChat",
+        "date": "2023.11.14 - 2023.11.22 개인 프로젝트",
+        "image": [
+            "/projectImage/livechat/ssslivechat.png",
+            "/projectImage/livechat/ssslivechatC.png",
+            "/projectImage/livechat/ssslivechatF.png",
+            "/projectImage/livechat/ssslivechatFs.png"
+        ],
+        "desc1": "React-typescript, Bootstrap을 배우고 숙련하기 위해 진행한 프로젝트입니다. Firebase의 실시간 데이터베이스와 FireStore, 회원 관리를 조합하여 데이터를 관리했습니다.",
+        "desc2": "특정 클라이언트의 경우 시중에서 흔히 사용하는 메신저보단 보안성이 높고 자체적으로 데이터를 보관 및 관리할 수 있는 전용 메신저를 선호할 것이라는 기획 하에 이 프로젝트를 진행했습니다.",
+        "func": "등록된 사용자들 중 원하는 대상을 검색, 친구 추가하여 1:1 채팅을 주고받을 수 있습니다.",
+        "pHref": "http://ssslivechat.dothome.co.kr/",
+        "gHref": "https://github.com/1hani7/live_chat",
+        "skills": [
+            "React",
+            "typescript",
+            "Redux",
+            "Bootstrap",
+            "Firebase",
+            "dotenv"
+        ]
+    },
+    {
+        "title": "SSS's Weather Report",
+        "date": "2023.11.03 - 2023.11.11 개인 프로젝트",
+        "image": [
+            "/projectImage/weather/sssweather.png",
+            "/projectImage/weather/sssweatherC.png",
+            "/projectImage/weather/sssweatherF.png",
+            "/projectImage/weather/sssweatherFC.png",
+            "/projectImage/weather/sssweatherR.png"
+        ],
+        "desc1": "React를 처음으로 사용하여 진행한 프로젝트로, Redux-toolkit을 활용한 전역 변수 관리와 Redux-thunk를 활용한 비동기 데이터 전역 관리를 익힘으로서 보다 유연한 컴포넌트 관리가 가능했습니다.",
+        "desc2": "여러 디자인들을 비교 참고한 결과 대쉬보드 스타일의 디자인이 가장 데이터를 시각화 하는 데에 적합하다고 판단하였습니다. 그 결과 웹사이트보다는 웹 앱에 보다 근접한 결과물이 나오게 되어 스스로도 흥미로운 경험이었습니다.",
+        "func": "weather API와 React-Redux를 활용한 날씨 예보 웹 어플리케이션",
+        "pHref": "http://sssweather.dothome.co.kr/",
+        "gHref": "https://github.com/1hani7/Weather",
+        "skills": [
+            "React",
+            "React-Redux",
+            "React-thunk",
+            "chart.js"
+        ]
+    },
+    {
+        "title": "AttackMo",
+        "date": "2023.09.11 - 2023.10.20 팀 프로젝트",
+        "image": [
+            "/projectImage/attackmo/attackmosite.png",
+            "/projectImage/attackmo/attackmositeC.png",
+            "/projectImage/attackmo/attackmositeF.png",
+            "/projectImage/attackmo/attackmositeFC.png",
+            "/projectImage/attackmo/attackmositeR.png",
+            "/projectImage/attackmo/attackmositeS.png"
+        ],
+        "desc1": "팀 프로젝트 경험을 쌓고 Vue.js를 익히기 위해서 진행한 프로젝트입니다. 다양한 영화들에 관한 정보들을 카테고리로 나눠서 제공하며, 리뷰 커뮤니티와 북마크, 추천리스트 생성 기능을 탑재하였습니다.",
+        "desc2": "처음으로 진행해본 팀 프로젝트인 만큼 프로젝트 외적으로도 많은 경험을 얻어갈 수 있었습니다. 특히 성향이 맞지 않은 팀원들과의 의견을 어떻게 조율하며 나아가야 할 지에 대해서 많은 힌트를 얻을 수 있었습니다.",
+        "func": "영화 정보와 추천리스트 기능을 탑재한 리뷰 커뮤니티 사이트",
+        "pHref": "http://attackmosite.dothome.co.kr/",
+        "gHref": "https://github.com/1hani7/Attackmo",
+        "skills": [
+            "Vue3",
+            "Firebase",
+            "chart.js"
+        ]
+    },
+    {
+        "title": "UNICORN.",
+        "date": "2023.07.17 - 2023.07.21 팀 프로젝트",
+        "image": [
+            "/projectImage/unicorn/unicornM.png",
+            "/projectImage/unicorn/unicornA.png",
+            "/projectImage/unicorn/unicornC.png",
+            "/projectImage/unicorn/unicornD.png",
+            "/projectImage/unicorn/unicornF.png",
+            "/projectImage/unicorn/unicornG.png",
+            "/projectImage/unicorn/unicornP.png"
+        ],
+        "desc1": "처음으로 진행한 팀 프로젝트입니다. 가상의 향수 브랜드를 직접 구상하는 것부터 시작하여 목업 이미지, 브랜드 로고 등의 다양한 방면들을 구축하였습니다. 브랜드를 홍보하는 컨셉의 원페이지 웹사이트입니다.",
+        "desc2": "향수라는 테마에 익숙하지 않았던 만큼, 함께한 팀원과의 소통과 자료 조사가 관건으로 작용했습니다. 온라인 매장 뿐만 아니라 오프라인 매점들에서도 어떤 이미지를 사용하고 홍보하는지 다양한 자료들을 참고 반영하기 위해 노력했습니다.",
+        "func": "가상의 향수 브랜드를 홍보하는 원페이지 웹사이트",
+        "pHref": "https://1hani7.github.io/DW_learned/project_one/index.html",
+        "gHref": "https://github.com/1hani7/DW_learned/tree/main/project_one",
+        "skills": ["HTML", "CSS", "JavaScript"]
+    }
+]
